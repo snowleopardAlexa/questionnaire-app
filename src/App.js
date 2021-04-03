@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import './App.css';
 import FavoriteCuisine from './components/food/FavoriteCuisine';
 import RatePhotos from './components/photos/RatePhotos';
+import UserAge from './components/age/UserAge';
+
 
 function App() {
   const [name] = useState("Questionnaire");
@@ -10,6 +12,7 @@ function App() {
       <h1>{name}</h1>
       <FavoriteCuisine />
       <RatePhotos  totalStars={5} />
+      <UserAge />
     </div>
   );
 }
