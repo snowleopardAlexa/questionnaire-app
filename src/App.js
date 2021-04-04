@@ -4,7 +4,7 @@ import FavoriteCuisine from './components/food/FavoriteCuisine';
 import RatePhotos from './components/photos/RatePhotos';
 import UserAge from './components/age/UserAge';
 import ChoosePet from './components/pets/ChoosePet';
-
+import Form from './components/form/Form';
 
 function App() {
   const [name] = useState("Questionnaire");
@@ -15,6 +15,7 @@ function App() {
       <RatePhotos  totalStars={5} />
       <UserAge />
       <ChoosePet />
+      <Form />
     </div>
   );
 }
