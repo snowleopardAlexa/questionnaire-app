@@ -3,6 +3,7 @@ import './App.css';
 import FavoriteCuisine from './components/food/FavoriteCuisine';
 import RatePhotos from './components/photos/RatePhotos';
 import UserAge from './components/age/UserAge';
+import ChoosePet from './components/pets/ChoosePet';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <FavoriteCuisine />
       <RatePhotos  totalStars={5} />
       <UserAge />
+      <ChoosePet />
     </div>
   );
 }
